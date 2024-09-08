@@ -18,7 +18,7 @@
 <p>Breno Silva - <a href="https://www.linkedin.com/in/brenosilvasantos" target="_blank" style="text-decoration: underline">brenosilvasantos</a></p>
 <p>Gustavo Amorim - <a href="https://www.linkedin.com/in/gustavo-amorim-5194951a9" target="_blank" style="text-decoration: underline">gustavo-amorim</a></p>
 <p>João Victor Cavalcanti - <a href="https://www.linkedin.com/in/jcavalcantivs" target="_blank" style="text-decoration: underline">jcavalcantivs</a></p>
-<p>Mariana Costa - <a href="https://www.linkedin.com/in/" target="_blank" style="text-decoration: underline">aaaa</a></p>
+<p>Mariana Costa - <a href="https://www.linkedin.com/in/mariana-medeiros-731474223" target="_blank" style="text-decoration: underline">mariana-medeiros</a></p>
 <p>Mariana Vidal - <a href="https://www.linkedin.com/in/marividal" target="_blank" style="text-decoration: underline">marividal</a></p>
 
 ## Tecnologias Utilizadas
