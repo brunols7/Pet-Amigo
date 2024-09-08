@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Importe de Icones e fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
     <title>Contato - PetAmigo</title>
 </head>
 <body>
@@ -11,18 +18,102 @@
         <nav>
             <div class="nav-container">
                 <a class="logo">PetAmigo</a>
-                <ul class="pages">
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="contato.html">contato</a></li>
-                    <li><a href="adocao.html">Adoção</a></li>
-                </ul>
+                <div class="pages">
+                    <a href="index.html" class="button">Início</a>
+                    <a href="contato.html" class="button">contato</a>
+                    <a href="adocao.html" class="button">Adoção</a>
+                </div>
             </div>
         </nav>
     </header>
 
-    <section class="banner-contato">
-        <img src="" alt="">
+    <section class="banner-contato-container">
+        <div class="banner-contato">
+            <img src="../assets/Img_Contato.jpg" alt="Formulario-Banner">
+            <div class="overlay-text"><h2>INTERESSADO EM<br> ADOTAR?<br>PREENCHA O<br> FORMULÁRIO ABAIXO!</h2></div>
+        </div>
     </section>
+
+    <section class="formulario-contato-container">
+        <div class="forms-area">
+            <h2>Preencha o formulário para escolher um animalzinho</h2>
+            <div class="formulario-container">
+                <div class="formulario">
+                    <p>Formulário de Adoção</p>
+                    <form class="formulario-contato">
+                        <div class="layoutForms">
+                            <label for="nome">Nome Completo:</label>
+                            <input type="text" name="nome" placeholder="Digite seu nome...">
+                        </div>
+                        <div class="layoutForms">
+                            <label for="dados">CPF/CNPJ:</label>
+                            <input type="number" name="dados" placeholder="Insira seus dados...">
+                        </div>
+                        <div class="layoutForms">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" placeholder="Insira seu email...">
+                        </div>
+                        <div class="layoutForms">
+                            <label for="telefone">Número de Contato:</label>
+                            <input type="tel" name="telefone" placeholder="(00) 99000-0000">
+                        </div>
+                        <div class="layoutForms">
+                            <label for="cep">CEP:</label>
+                            <input type="number" name="cep" placeholder="04000-040">
+                        </div>
+                        <div class="layoutForms">
+                            <label for="endereco">Endereço:</label>
+                            <input type="text" name="endereco" placeholder="Rua exemplo, 00">
+                        </div>
+                        <div class="layoutForms">
+                            <label for="estado">Estado:</label>
+                            <input type="text" name="estado" placeholder="Exemplo: São Paulo">
+                        </div>
+                        <div class="layoutForms">
+                            <label for="cidade">Cidade:</label>
+                            <input type="text" name="cidade" placeholder="Exemplo: São Paulo">
+                        </div>
+                        <button type="submit" class="btn-enviar-formulario">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-info">
+            <div class="sobre">
+                <a class="logo-footer">PetAmigo</a>
+                <h1>A ONG PetAmigo é um lugar incrível</h1>
+                <p>&copy; 2024 - Todos os direitos reservados</p>
+                <p><a href="#" target="_blank" id="termos-footer">Termos de uso</a> | <a href="#" target="_blank" id="termos-footer">Política de privacidade</a></p>
+                <div class="dados-ong">
+                    <h3>PetAmigo</h3>
+                    <p>CNPJ: 12.345.555/0001-02</p>
+                </div>
+            </div>
+            <div class="duvidas">
+                <span class="material-symbols-outlined">help</span>
+                <h1>Dúvidas ou quer falar com a gente?</h1>
+                <p>Email: PetAmigo@gmail.com</p>
+                <p>WhatsApp: 11 94002-8922</p>
+                <p>Instagram: @PetAmigo</p>
+            </div>
+            <div class="atualizacoes">
+                <span class="material-symbols-outlined">mail</span>
+                <h1>Receba no Email atualizações:</h1>
+                <form class="form-footer">
+                    <div class="layoutFooter">
+                        <input type="text" name="nome" placeholder="Nome:">
+                        <input type="email" name="email" placeholder="Email:">
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+    
+            </div>
+        </div>
+        <h3 id="frase">Juntos podemos mudar a vida de muitos animais.</h3>
+    </footer>
     
 </body>
 </html>
