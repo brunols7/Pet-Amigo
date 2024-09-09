@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #E9F4DD;
 }
 
-header{
+header {
     font-family: "Montserrat";
     background-color: #060606;
 }
@@ -20,14 +20,143 @@ header{
     justify-content: space-between;
 }
 
-.logo{
+
+/* Pagina Index style */
+
+.banner-index {
+    position: relative;
+    display: inline-block;
+}
+
+.banner-index img {
+    display: block;
+    width: 100%;
+    height: 50% auto;
+    object-fit: cover;
+    
+}
+
+.index-text {
+    position: absolute;
+    font-family: "Playfair Display" !important;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 49px;
+
+}
+
+
+.content-index-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.content-cat-container {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 60%;
+}
+
+.content-text h2 {
+    font-size: 60px;
+    color: #7FA552;
+    font-family: Playfair Display;
+
+}
+
+.content-dog-container {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+    padding-bottom: 150px;
+   
+}
+
+.content-text p {
+    font-size: 28px;
+    color: #7FA552;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Playfair Display;
+
+}
+
+.content-dog-container h3 {
+    text-align: center;
+    color: #7FA552;
+    font-size: 45px;
+    font-family: Playfair Display;
+}
+
+.content-dog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-dog img{
+    width: 600px;
+    height: 300px;
+    padding-right: 70px;
+}
+
+.content-text a{
+    border: 2px solid #7FA552;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #7FA552;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Playfair Display;
+    margin-top: 25px;
+    display:inline-block;
+    transition: trasnform 0.3s ease;
+
+
+}
+
+.content-text a:hover{
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #b9cea0; 
+    transform: scale(1.2);
+
+
+}
+
+.logo {
     color: #a9c28c;
     font-size: 28px;
 }
 
-.pages{
+.pages {
     display: flex;
-    gap: 20px; /* Espaço entre os itens */
+    gap: 20px;
+    /* Espaço entre os itens */
     margin: 0;
     padding: 0;
 }
@@ -51,22 +180,22 @@ header{
     position: relative;
     display: inline-block;
 }
-  
+
 .banner-contato img {
     display: block;
     width: 100%;
     height: 50% auto;
     object-fit: cover;
 }
-  
+
 .overlay-text {
     position: absolute;
     font-family: "Playfair Display" !important;
-    top: 50%; 
-    left: 20%; 
-    transform: translate(-50%, -50%); 
-    color: black; 
-    padding: 10px 20px; 
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: black;
+    padding: 10px 20px;
     font-size: 25px;
     font-weight: 700;
     text-align: center;
@@ -75,34 +204,34 @@ header{
 
 /* Forms Style */
 
-.forms-area{
+.forms-area {
     font-family: "Montserrat";
     max-width: 900px;
     margin: 60px auto;
 }
 
-.forms-area h2{
+.forms-area h2 {
     color: #7FA552;
     font-family: Playfair Display;
     font-size: 35px;
 }
 
-.formulario-contato-container{
+.formulario-contato-container {
     background-color: #E9F4DD;
     display: flex;
 }
 
-.formulario-container{
+.formulario-container {
     padding: 70px;
-    background-color:#7FA552;
+    background-color: #7FA552;
     border-radius: 12px;
     max-width: 600px;
     margin: 60px auto;
 }
 
-form button{
-    background-color:#E9F4DD;
-    width:17%;
+form button {
+    background-color: #E9F4DD;
+    width: 17%;
     padding: 9px;
     color: rgb(0, 0, 0);
     border: none;
@@ -112,12 +241,12 @@ form button{
     cursor: pointer;
 }
 
-form button:hover{
-    background-color:#a9c28c;
+form button:hover {
+    background-color: #a9c28c;
 }
 
-.layoutForms input{
-    width:100%;
+.layoutForms input {
+    width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -126,16 +255,16 @@ form button:hover{
     background-color: #E9F4DD;
 }
 
-.layoutForms{
+.layoutForms {
     padding-bottom: 15px;
 }
 
-.formulario p{
+.formulario p {
     padding-bottom: 40px;
     font-size: 40px;
 }
 
-.formulario-contato{
+.formulario-contato {
     font-weight: 500;
 }
 
@@ -162,7 +291,7 @@ footer {
     text-align: left;
 }
 
-.footer-info h1{
+.footer-info h1 {
     padding-bottom: 20px;
     font-size: 18px;
 }
@@ -172,12 +301,12 @@ footer {
     font-size: 14px;
 }
 
-#termos-footer{
+#termos-footer {
     text-decoration: underline;
     color: #7FA552;
 }
 
-.footer-info span{
+.footer-info span {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -185,25 +314,27 @@ footer {
     padding-bottom: 10px;
 }
 
-#frase{
+#frase {
     text-align: center;
     margin-top: 20px;
     font-family: "Montez";
     font-weight: 400;
     font-size: 32px;
 }
-.duvidas{
+
+.duvidas {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
 }
 
-.sobre, .atualizacoes {
+.sobre,
+.atualizacoes {
     text-align: left;
 }
 
-.material-symbols-outlined span, 
+.material-symbols-outlined span,
 .logo-footer {
     font-size: 40px;
     display: block;
@@ -218,11 +349,12 @@ footer {
     display: flex;
     flex-direction: column;
 }
-.dados-ong{
+
+.dados-ong {
     padding-top: 20px;
 }
 
-.dados-ong p{
+.dados-ong p {
     padding-top: 5px;
     padding-left: 2px;
 }
@@ -238,7 +370,7 @@ footer {
     width: 250px;
 }
 
-.atualizacoes button{
+.atualizacoes button {
     width: 270px;
 }
 
