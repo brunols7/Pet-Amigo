@@ -4,7 +4,7 @@
 <p>Pet Amigo é um site desenvolvido para uma ONG de adoção de animais. O objetivo é facilitar a conexão entre a organização e possíveis adotantes, permitindo a visualização de animais disponíveis para adoção e fornecendo informações sobre a ONG.</p>
 
 <h3>Link do Site</h3>
-<p> Acesse o site aqui: <a href="https://brunols7.github.io/Pet-Amigo/pages/adocao.html" target="_blank" style="text-decoration: underline">Pet Amigo</a>.</p>
+<p> Acesse o site aqui: <a href="https://brunols7.github.io/Pet-Amigo/pages/index.html" target="_blank" style="text-decoration: underline">Pet Amigo</a>.</p>
 
 ----
 
