@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../style02.css">
 
   <!-- Links de Ícones e fontes -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Material+Symbols+Outlined" rel="stylesheet">
@@ -18,75 +18,84 @@
 <body>
   <header>
     <nav>
-        <div class="nav-container">
-            <a class="logo">PetAmigo</a>
-            <div class="pages">
-                <a href="index.html" class="button">Início</a>
-                <a href="contato.html" class="button">Contato</a>
-                <a href="adocao.html" class="button">Adoção</a>
-            </div>
+      <div class="nav-container">
+        <a class="logo">PetAmigo</a>
+        <div class="pages">
+          <a href="index.html" class="button">Início</a>
+          <a href="contato.html" class="button">Contato</a>
+          <a href="adocao.html" class="button">Adoção</a>
         </div>
+      </div>
     </nav>
-</header>
+  </header>
 
-  <section class="banner-adocao">
-    <img src="assets/Img_Adoção02.jpg" width="100%" height="50%">
-    <div class="banner-sobreposicao">
-      <span>QUER UM LINDO PET PARA CHAMAR DE SEU?</span>
+  <section class="banner-adocao-container">
+    <div class="banner-adocao">
+      <img src="../assets/Img_Adoção02.jpg" alt="Adoção_banner">
+      <div class="banner-sobreposicao">
+        <span>QUER UM LINDO PET PARA CHAMAR DE SEU?</span>
+      </div>
     </div>
   </section>
 
   <section class="galeria-animais-container">
-    <span>Galeria de animais</span>
+    <div class="galeria-area">
+      <h2>Galeria de animais</h2>
 
-    <div class="galeria-animal">
-      <div class="galeria-animal"><img src="assets/Img_Animal_Logan.jpeg" alt=""></div>
-      <div class="galeria-animal"><img src="assets/Img_Animal_Oliver.jpeg" alt=""></div>
-      <div class="galeria-animal"><img src="assets/Img_Animal_Princesa.jpeg" alt=""></div>
-    </div>
+      <div class="galeria-animal">
+        <div class="galeria-animal"><img src="../assets/Img_Animal_Oliver.jpeg" alt=""></div>
+        <div class="galeria-animal"><img src="../assets/Img_Animal_Princesa.jpeg" alt=""></div>
+        <div class="galeria-animal"><img src="../assets/Img_Animal_Suelen.jpeg" alt=""></div>
+        <button type="submit" class="btn-adote">Adote</button>
+        <button type="submit" class="btn-adote">Adote</button>
+        <button type="submit" class="btn-adote">Adote</button>
+      </div>
 
-    <div class="galeria-animal">
-      <div class="galeria-animal"><img src="assets/Img_Animal_Bernardo.jpeg" alt=""></div>
-      <div class="galeria-animal"><img src="assets/Img_Animal_Suelen.jpeg" alt=""></div>
-      <div class="galeria-animal"><img src="assets/Img_Animal_Marlon.jpeg" alt=""></div>
-    </div>
+      <div class="galeria-animal">
+        <div class="galeria-animal"><img src="../assets/Img_Animal_Bernardo.jpeg" alt=""></div>
+        <div class="galeria-animal"><img src="../assets/Img_Animal_Logan.jpeg" alt=""></div>
+        <div class="galeria-animal"><img src="../assets/Img_Animal_Marlon.jpeg" alt=""></div>
+        <button type="submit" class="btn-adote">Adote</button>
+        <button type="submit" class="btn-adote">Adote</button>
+        <button type="submit" class="btn-adote">Adote</button>
+      </div>
 
   </section>
 
   <footer>
     <div class="footer-info">
-        <div class="sobre">
-            <a class="logo-footer">PetAmigo</a>
-            <h1>A ONG PetAmigo é um lugar incrível</h1>
-            <p>&copy; 2024 - Todos os direitos reservados</p>
-            <p><a href="#" target="_blank" id="termos-footer">Termos de uso</a> | <a href="#" target="_blank" id="termos-footer">Política de privacidade</a></p>
-            <div class="dados-ong">
-                <h3>PetAmigo</h3>
-                <p>CNPJ: 12.345.555/0001-02</p>
-            </div>
+      <div class="sobre">
+        <a class="logo-footer">PetAmigo</a>
+        <h1>A ONG PetAmigo é um lugar incrível</h1>
+        <p>&copy; 2024 - Todos os direitos reservados</p>
+        <p><a href="#" target="_blank" id="termos-footer">Termos de uso</a> | <a href="#" target="_blank" id="termos-footer">Política de privacidade</a></p>
+        <div class="dados-ong">
+          <h3>PetAmigo</h3>
+          <p>CNPJ: 12.345.555/0001-02</p>
         </div>
-        <div class="duvidas">
-            <span class="material-symbols-outlined">help</span>
-            <h1>Dúvidas ou quer falar com a gente?</h1>
-            <p>Email: PetAmigo@gmail.com</p>
-            <p>WhatsApp: 11 94002-8922</p>
-            <p>Instagram: @PetAmigo</p>
-        </div>
-        <div class="atualizacoes">
-            <span class="material-symbols-outlined">mail</span>
-            <h1>Receba no Email atualizações:</h1>
-            <form class="form-footer">
-                <div class="layoutFooter">
-                    <input type="text" name="nome" placeholder="Nome:">
-                    <input type="email" name="email" placeholder="Email:">
-                </div>
-                <button type="submit">Enviar</button>
-            </form>
+      </div>
+      <div class="duvidas">
+        <span class="material-symbols-outlined">help</span>
+        <h1>Dúvidas ou quer falar com a gente?</h1>
+        <p>Email: PetAmigo@gmail.com</p>
+        <p>WhatsApp: 11 94002-8922</p>
+        <p>Instagram: @PetAmigo</p>
+      </div>
+      <div class="atualizacoes">
+        <span class="material-symbols-outlined">mail</span>
+        <h1>Receba no Email atualizações:</h1>
+        <form class="form-footer">
+          <div class="layoutFooter">
+            <input type="text" name="nome" placeholder="Nome:">
+            <input type="email" name="email" placeholder="Email:">
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
 
-        </div>
+      </div>
     </div>
     <h3 id="frase">Juntos podemos mudar a vida de muitos animais.</h3>
-</footer>
+  </footer>
 </body>
 
 </html>

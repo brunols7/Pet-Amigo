@@ -1,4 +1,5 @@
 * {
+<<<<<<< Updated upstream
     margin: 0;
     padding: 0;
 }
@@ -10,16 +11,30 @@ body {
 header {
     font-family: "Montserrat";
     background-color: #060606;
+=======
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e9f4dd;
+}
+
+header {
+  font-family: "Montserrat";
+  background-color: #060606;
+>>>>>>> Stashed changes
 }
 
 .nav-container {
-    display: flex;
-    align-items: center;
-    padding: 20px 80px;
-    background-color: #060606;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #060606;
+  justify-content: space-between;
 }
 
+<<<<<<< Updated upstream
 
 /* Pagina Index style */
 
@@ -159,36 +174,49 @@ header {
     /* Espaço entre os itens */
     margin: 0;
     padding: 0;
+=======
+.logo {
+  color: #a9c28c;
+  font-size: 28px;
+}
+
+.pages {
+  display: flex;
+  gap: 20px; /* Espaço entre os itens */
+  margin: 0;
+  padding: 0;
+>>>>>>> Stashed changes
 }
 
 .button {
-    color: #a9c28c;
-    text-decoration: none;
-    border: 1px solid #E9F4DD;
-    padding: 10px 50px;
-    border-radius: 25px;
-    transition: background-color 0.3s, color 0.3s;
-    font-size: 20px;
+  color: #a9c28c;
+  text-decoration: none;
+  border: 1px solid #e9f4dd;
+  padding: 10px 50px;
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 20px;
 }
 
 .button:hover {
-    background-color: #a9c28c;
-    color: #060606;
+  background-color: #a9c28c;
+  color: #060606;
 }
 
 .banner-contato {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .banner-contato img {
-    display: block;
-    width: 100%;
-    height: 50% auto;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 50% auto;
+  object-fit: cover;
 }
 
 .overlay-text {
+<<<<<<< Updated upstream
     position: absolute;
     font-family: "Playfair Display" !important;
     top: 50%;
@@ -200,11 +228,25 @@ header {
     font-weight: 700;
     text-align: center;
     line-height: 49px;
+=======
+  position: absolute;
+  font-family: "Playfair Display" !important;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 49px;
+>>>>>>> Stashed changes
 }
 
 /* Forms Style */
 
 .forms-area {
+<<<<<<< Updated upstream
     font-family: "Montserrat";
     max-width: 900px;
     margin: 60px auto;
@@ -266,42 +308,111 @@ form button:hover {
 
 .formulario-contato {
     font-weight: 500;
+=======
+  font-family: "Montserrat";
+  max-width: 900px;
+  margin: 60px auto;
+}
+
+.forms-area h2 {
+  color: #7fa552;
+  font-family: Playfair Display;
+  font-size: 35px;
+}
+
+.formulario-contato-container {
+  background-color: #e9f4dd;
+  display: flex;
+}
+
+.formulario-container {
+  padding: 70px;
+  background-color: #7fa552;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 60px auto;
+}
+
+form button {
+  background-color: #e9f4dd;
+  width: 17%;
+  padding: 9px;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 4%;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #a9c28c;
+}
+
+.layoutForms input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 5px;
+  background-color: #e9f4dd;
+}
+
+.layoutForms {
+  padding-bottom: 15px;
+}
+
+.formulario p {
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+
+.formulario-contato {
+  font-weight: 500;
+>>>>>>> Stashed changes
 }
 
 /* Footer Style */
 
 footer {
-    background-color: #121212;
-    color: white;
-    padding: 40px 0;
-    text-align: center;
+  background-color: #121212;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
 }
 
 .footer-info {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin-bottom: 20px;
-    font-family: "Montserrat";
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  font-family: "Montserrat";
 }
 
 .footer-info div {
-    flex: 1;
-    max-width: 300px;
-    text-align: left;
+  flex: 1;
+  max-width: 300px;
+  text-align: left;
 }
 
 .footer-info h1 {
+<<<<<<< Updated upstream
     padding-bottom: 20px;
     font-size: 18px;
+=======
+  padding-bottom: 20px;
+  font-size: 18px;
+>>>>>>> Stashed changes
 }
 
 .footer-info p {
-    padding-bottom: 5px;
-    font-size: 14px;
+  padding-bottom: 5px;
+  font-size: 14px;
 }
 
 #termos-footer {
+<<<<<<< Updated upstream
     text-decoration: underline;
     color: #7FA552;
 }
@@ -327,28 +438,59 @@ footer {
     flex-direction: column;
     text-align: center;
     align-items: center;
+=======
+  text-decoration: underline;
+  color: #7fa552;
+}
+
+.footer-info span {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+#frase {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Montez";
+  font-weight: 400;
+  font-size: 32px;
+}
+.duvidas {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+>>>>>>> Stashed changes
 }
 
 .sobre,
 .atualizacoes {
+<<<<<<< Updated upstream
     text-align: left;
+=======
+  text-align: left;
+>>>>>>> Stashed changes
 }
 
 .material-symbols-outlined span,
 .logo-footer {
-    font-size: 40px;
-    display: block;
-    margin-bottom: 10px !important;
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px !important;
 }
 
 .material-symbols-outlined {
-    font-size: 40px !important;
+  font-size: 40px !important;
 }
 
 .atualizacoes form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
+<<<<<<< Updated upstream
 
 .dados-ong {
     padding-top: 20px;
@@ -357,10 +499,20 @@ footer {
 .dados-ong p {
     padding-top: 5px;
     padding-left: 2px;
+=======
+.dados-ong {
+  padding-top: 20px;
+}
+
+.dados-ong p {
+  padding-top: 5px;
+  padding-left: 2px;
+>>>>>>> Stashed changes
 }
 
 .atualizacoes input[type="text"],
 .atualizacoes input[type="email"] {
+<<<<<<< Updated upstream
     background-color: transparent;
     border: none;
     border-bottom: 1px solid white;
@@ -381,17 +533,39 @@ footer {
 .atualizacoes input:focus {
     outline: none;
     border-bottom: 1px solid lightgreen;
+=======
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 250px;
+>>>>>>> Stashed changes
 }
 
 .atualizacoes button {
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
+  width: 270px;
+}
+
+.atualizacoes input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.atualizacoes input:focus {
+  outline: none;
+  border-bottom: 1px solid lightgreen;
+}
+
+.atualizacoes button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .atualizacoes button:hover {
-    background-color: white;
-    color: #121212;
+  background-color: white;
+  color: #121212;
 }
