@@ -1,17 +1,15 @@
 * {
-<<<<<<< Updated upstream
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #E9F4DD;
+  background-color: #E9F4DD;
 }
 
 header {
-    font-family: "Montserrat";
-    background-color: #060606;
-=======
+  font-family: "Montserrat";
+  background-color: #060606;
   margin: 0;
   padding: 0;
 }
@@ -23,7 +21,6 @@ body {
 header {
   font-family: "Montserrat";
   background-color: #060606;
->>>>>>> Stashed changes
 }
 
 .nav-container {
@@ -34,147 +31,132 @@ header {
   justify-content: space-between;
 }
 
-<<<<<<< Updated upstream
-
 /* Pagina Index style */
 
 .banner-index {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .banner-index img {
-    display: block;
-    width: 100%;
-    height: 50% auto;
-    object-fit: cover;
-    
+  display: block;
+  width: 100%;
+  height: 50% auto;
+  object-fit: cover;
+
 }
 
 .index-text {
-    position: absolute;
-    font-family: "Playfair Display" !important;
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    color: white;
-    padding: 10px 20px;
-    font-size: 35px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 49px;
+  position: absolute;
+  font-family: "Playfair Display" !important;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px 20px;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 49px;
 
 }
 
-
 .content-index-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 150px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
 }
 
 .content-cat-container {
-    display: flex;
-    width: 70%;
-    justify-content: center;
-    padding-top: 200px;
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  padding-top: 200px;
 }
 
 .content-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 60%;
 }
 
 .content-text h2 {
-    font-size: 60px;
-    color: #7FA552;
-    font-family: Playfair Display;
+  font-size: 60px;
+  color: #7FA552;
+  font-family: Playfair Display;
 
 }
 
 .content-dog-container {
-    display: flex;
-    width: 70%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 90px;
-    padding-bottom: 150px;
-   
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 90px;
+  padding-bottom: 150px;
+
 }
 
 .content-text p {
-    font-size: 28px;
-    color: #7FA552;
-    text-align: center;
-    padding-top: 10px;
-    font-family: Playfair Display;
+  font-size: 28px;
+  color: #7FA552;
+  text-align: center;
+  padding-top: 10px;
+  font-family: Playfair Display;
 
 }
 
 .content-dog-container h3 {
-    text-align: center;
-    color: #7FA552;
-    font-size: 45px;
-    font-family: Playfair Display;
+  text-align: center;
+  color: #7FA552;
+  font-size: 45px;
+  font-family: Playfair Display;
 }
 
 .content-dog {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.content-dog img{
-    width: 600px;
-    height: 300px;
-    padding-right: 70px;
+.content-dog img {
+  width: 600px;
+  height: 300px;
+  padding-right: 70px;
 }
 
-.content-text a{
-    border: 2px solid #7FA552;
-    padding: 5px 20px;
-    border-radius: 20px;
-    color: #7FA552;
-    font-weight: bold;
-    text-decoration: none;
-    font-family: Playfair Display;
-    margin-top: 25px;
-    display:inline-block;
-    transition: trasnform 0.3s ease;
-
-
-}
-
-.content-text a:hover{
-    border: 2px solid #fff;
-    color: #fff;
-    background-color: #b9cea0; 
-    transform: scale(1.2);
+.content-text a {
+  border: 2px solid #7FA552;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: #7FA552;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Playfair Display;
+  margin-top: 25px;
+  display: inline-block;
+  transition: trasnform 0.3s ease;
 
 
 }
 
-.logo {
-    color: #a9c28c;
-    font-size: 28px;
+.content-text a:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #b9cea0;
+  transform: scale(1.2);
+
+
 }
 
-.pages {
-    display: flex;
-    gap: 20px;
-    /* Espaço entre os itens */
-    margin: 0;
-    padding: 0;
-=======
 .logo {
   color: #a9c28c;
   font-size: 28px;
@@ -182,10 +164,24 @@ header {
 
 .pages {
   display: flex;
-  gap: 20px; /* Espaço entre os itens */
+  gap: 20px;
+  /* Espaço entre os itens */
   margin: 0;
   padding: 0;
->>>>>>> Stashed changes
+}
+
+.logo {
+  color: #a9c28c;
+  font-size: 28px;
+}
+
+.pages {
+  display: flex;
+  gap: 20px;
+  /* Espaço entre os itens */
+  margin: 0;
+  padding: 0;
+
 }
 
 .button {
@@ -216,19 +212,6 @@ header {
 }
 
 .overlay-text {
-<<<<<<< Updated upstream
-    position: absolute;
-    font-family: "Playfair Display" !important;
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    color: black;
-    padding: 10px 20px;
-    font-size: 25px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 49px;
-=======
   position: absolute;
   font-family: "Playfair Display" !important;
   top: 50%;
@@ -240,75 +223,167 @@ header {
   font-weight: 700;
   text-align: center;
   line-height: 49px;
->>>>>>> Stashed changes
+}
+
+/* Banner Style */  
+
+.banner-adocao img {
+  height: 50% auto;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-sobreposicao {
+  position: absolute;
+  font-family: "Playfair Display" !important;
+  top: 50%;
+  left: 74%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 49px;
+}
+
+/* Estilização do título */
+.galeria-area h2 {
+  background-color: #a9c28c;
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 50px;
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 105px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Desfoque na borda */
+  text-shadow: 1px 4px 8px black;
+  border-radius: 12px;
+}
+
+/* Estilização dos pets */
+.galeria-animais-container {
+  padding: 45px;
+  background-color: #f0f5e6;
+  display: flex;
+  justify-content: center;
+}
+
+.galeria-animal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 130px; /* Espaço entre os itens */
+  margin-bottom: 48px;
+}
+
+.galeria-animal div {
+  position: relative;
+  padding-bottom: 100%; /* Isso cria uma proporção 1:1 (quadrada) */
+}
+
+.galeria-animal img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Para garantir que a imagem preencha o espaço sem distorção */
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Desfoque na borda */
+}
+
+.galeria-animal img:hover {
+  transform: scale(1.05);
+}
+
+/* Estilização do botão */
+
+  .galeria-area button {
+  background-color: #7fa552;
+  padding: 14px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 15px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-bottom: auto;
+  margin-top: -170px;
+  transition: transform 0.4s ease-in-out;
+  border: 5xp solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Desfoque na borda */
+}
+
+.galeria-area button:hover {
+  background-color: #a9c28c;
+  transform: scale(1.12);
 }
 
 /* Forms Style */
 
 .forms-area {
-<<<<<<< Updated upstream
-    font-family: "Montserrat";
-    max-width: 900px;
-    margin: 60px auto;
+  font-family: "Montserrat";
+  max-width: 900px;
+  margin: 60px auto;
 }
 
 .forms-area h2 {
-    color: #7FA552;
-    font-family: Playfair Display;
-    font-size: 35px;
+  color: #7FA552;
+  font-family: Playfair Display;
+  font-size: 35px;
 }
 
 .formulario-contato-container {
-    background-color: #E9F4DD;
-    display: flex;
+  background-color: #E9F4DD;
+  display: flex;
 }
 
 .formulario-container {
-    padding: 70px;
-    background-color: #7FA552;
-    border-radius: 12px;
-    max-width: 600px;
-    margin: 60px auto;
+  padding: 70px;
+  background-color: #7FA552;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 60px auto;
 }
 
 form button {
-    background-color: #E9F4DD;
-    width: 17%;
-    padding: 9px;
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-right: 4%;
-    cursor: pointer;
+  background-color: #E9F4DD;
+  width: 17%;
+  padding: 9px;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 4%;
+  cursor: pointer;
 }
 
 form button:hover {
-    background-color: #a9c28c;
+  background-color: #a9c28c;
 }
 
 .layoutForms input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    margin-top: 5px;
-    background-color: #E9F4DD;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 5px;
+  background-color: #E9F4DD;
 }
 
 .layoutForms {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .formulario p {
-    padding-bottom: 40px;
-    font-size: 40px;
+  padding-bottom: 40px;
+  font-size: 40px;
 }
 
 .formulario-contato {
-    font-weight: 500;
-=======
+  font-weight: 500;
   font-family: "Montserrat";
   max-width: 900px;
   margin: 60px auto;
@@ -370,7 +445,6 @@ form button:hover {
 
 .formulario-contato {
   font-weight: 500;
->>>>>>> Stashed changes
 }
 
 /* Footer Style */
@@ -397,13 +471,10 @@ footer {
 }
 
 .footer-info h1 {
-<<<<<<< Updated upstream
-    padding-bottom: 20px;
-    font-size: 18px;
-=======
   padding-bottom: 20px;
   font-size: 18px;
->>>>>>> Stashed changes
+  padding-bottom: 20px;
+  font-size: 18px;
 }
 
 .footer-info p {
@@ -412,35 +483,8 @@ footer {
 }
 
 #termos-footer {
-<<<<<<< Updated upstream
-    text-decoration: underline;
-    color: #7FA552;
-}
-
-.footer-info span {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding-bottom: 10px;
-}
-
-#frase {
-    text-align: center;
-    margin-top: 20px;
-    font-family: "Montez";
-    font-weight: 400;
-    font-size: 32px;
-}
-
-.duvidas {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-=======
   text-decoration: underline;
-  color: #7fa552;
+  color: #7FA552;
 }
 
 .footer-info span {
@@ -458,21 +502,34 @@ footer {
   font-weight: 400;
   font-size: 32px;
 }
+
+.footer-info span {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+#frase {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Montez";
+  font-weight: 400;
+  font-size: 32px;
+}
+
 .duvidas {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
->>>>>>> Stashed changes
 }
 
 .sobre,
 .atualizacoes {
-<<<<<<< Updated upstream
-    text-align: left;
-=======
   text-align: left;
->>>>>>> Stashed changes
+  text-align: left;
 }
 
 .material-symbols-outlined span,
@@ -490,16 +547,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
-<<<<<<< Updated upstream
 
-.dados-ong {
-    padding-top: 20px;
-}
-
-.dados-ong p {
-    padding-top: 5px;
-    padding-left: 2px;
-=======
 .dados-ong {
   padding-top: 20px;
 }
@@ -507,33 +555,19 @@ footer {
 .dados-ong p {
   padding-top: 5px;
   padding-left: 2px;
->>>>>>> Stashed changes
+}
+
+.dados-ong {
+  padding-top: 20px;
+}
+
+.dados-ong p {
+  padding-top: 5px;
+  padding-left: 2px;
 }
 
 .atualizacoes input[type="text"],
 .atualizacoes input[type="email"] {
-<<<<<<< Updated upstream
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid white;
-    color: white;
-    padding: 10px;
-    margin-bottom: 15px;
-    width: 250px;
-}
-
-.atualizacoes button {
-    width: 270px;
-}
-
-.atualizacoes input::placeholder {
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.atualizacoes input:focus {
-    outline: none;
-    border-bottom: 1px solid lightgreen;
-=======
   background-color: transparent;
   border: none;
   border-bottom: 1px solid white;
@@ -541,7 +575,26 @@ footer {
   padding: 10px;
   margin-bottom: 15px;
   width: 250px;
->>>>>>> Stashed changes
+}
+
+.atualizacoes button {
+  width: 270px;
+}
+
+.atualizacoes input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.atualizacoes input:focus {
+  outline: none;
+  border-bottom: 1px solid lightgreen;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 250px;
 }
 
 .atualizacoes button {
