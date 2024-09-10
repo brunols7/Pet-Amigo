@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #E9F4DD;
+  background-color: #e9f4dd;
 }
 
 header {
@@ -43,7 +43,6 @@ header {
   width: 100%;
   height: 50% auto;
   object-fit: cover;
-
 }
 
 .index-text {
@@ -58,7 +57,6 @@ header {
   font-weight: 700;
   text-align: center;
   line-height: 49px;
-
 }
 
 .content-index-container {
@@ -89,9 +87,8 @@ header {
 
 .content-text h2 {
   font-size: 60px;
-  color: #7FA552;
+  color: #7fa552;
   font-family: Playfair Display;
-
 }
 
 .content-dog-container {
@@ -102,21 +99,19 @@ header {
   flex-direction: column;
   gap: 90px;
   padding-bottom: 150px;
-
 }
 
 .content-text p {
   font-size: 28px;
-  color: #7FA552;
+  color: #7fa552;
   text-align: center;
   padding-top: 10px;
   font-family: Playfair Display;
-
 }
 
 .content-dog-container h3 {
   text-align: center;
-  color: #7FA552;
+  color: #7fa552;
   font-size: 45px;
   font-family: Playfair Display;
 }
@@ -134,18 +129,16 @@ header {
 }
 
 .content-text a {
-  border: 2px solid #7FA552;
+  border: 2px solid #7fa552;
   padding: 5px 20px;
   border-radius: 20px;
-  color: #7FA552;
+  color: #7fa552;
   font-weight: bold;
   text-decoration: none;
   font-family: Playfair Display;
   margin-top: 25px;
   display: inline-block;
   transition: trasnform 0.3s ease;
-
-
 }
 
 .content-text a:hover {
@@ -153,8 +146,6 @@ header {
   color: #fff;
   background-color: #b9cea0;
   transform: scale(1.2);
-
-
 }
 
 .logo {
@@ -181,7 +172,6 @@ header {
   /* Espaço entre os itens */
   margin: 0;
   padding: 0;
-
 }
 
 .button {
@@ -225,7 +215,7 @@ header {
   line-height: 49px;
 }
 
-/* Banner Style */  
+/* Banner Style */
 
 .banner-adocao img {
   height: 50% auto;
@@ -293,33 +283,53 @@ header {
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Desfoque na borda */
 }
-
 .galeria-animal img:hover {
   transform: scale(1.05);
 }
 
-/* Estilização do botão */
-
-  .galeria-area button {
+/* --------------------------------------------------------------- */
+/* Estilização do botão Adote */
+.galeria-area button {
   background-color: #7fa552;
-  padding: 14px;
+  padding: 13px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: auto;
+  margin-top: -120px;
+  transition: transform 0.4s ease-in-out;
+  border: 5xp solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Desfoque na borda */
+}
+.galeria-area button:hover {
+  background-color: #e9bc42;
+  transform: scale(1.12);
+}
+/* ------------------------------------------------------- */
+/* Estilizando botão Informações */
+.galeria-area button01 {
+  background-color: #7fa552;
+  margin: auto;
+  width: 85%;
+  padding: 11px;
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 15px;
   font-size: 17px;
   cursor: pointer;
   margin-bottom: auto;
-  margin-top: -170px;
+  text-align: center;
+  margin-top: -297px;
   transition: transform 0.4s ease-in-out;
   border: 5xp solid black;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Desfoque na borda */
 }
-
-.galeria-area button:hover {
+.galeria-area button01:hover {
   background-color: #a9c28c;
   transform: scale(1.12);
 }
-
 /* Forms Style */
 
 .forms-area {
@@ -329,26 +339,26 @@ header {
 }
 
 .forms-area h2 {
-  color: #7FA552;
+  color: #7fa552;
   font-family: Playfair Display;
   font-size: 35px;
 }
 
 .formulario-contato-container {
-  background-color: #E9F4DD;
+  background-color: #e9f4dd;
   display: flex;
 }
 
 .formulario-container {
   padding: 70px;
-  background-color: #7FA552;
+  background-color: #7fa552;
   border-radius: 12px;
   max-width: 600px;
   margin: 60px auto;
 }
 
 form button {
-  background-color: #E9F4DD;
+  background-color: #e9f4dd;
   width: 17%;
   padding: 9px;
   color: rgb(0, 0, 0);
@@ -370,7 +380,7 @@ form button:hover {
   border-radius: 4px;
   font-size: 16px;
   margin-top: 5px;
-  background-color: #E9F4DD;
+  background-color: #e9f4dd;
 }
 
 .layoutForms {
@@ -484,7 +494,7 @@ footer {
 
 #termos-footer {
   text-decoration: underline;
-  color: #7FA552;
+  color: #7fa552;
 }
 
 .footer-info span {
