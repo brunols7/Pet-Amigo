@@ -298,7 +298,7 @@ header {
   font-size: 20px;
   cursor: pointer;
   margin-bottom: auto;
-  margin-top: -120px;
+  margin-top: -170px;
   transition: transform 0.4s ease-in-out;
   border: 5xp solid black;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Desfoque na borda */
@@ -307,29 +307,29 @@ header {
   background-color: #e9bc42;
   transform: scale(1.12);
 }
-/* ------------------------------------------------------- */
-/* Estilizando botão Informações */
-.galeria-area button01 {
+.galeria-area a {
   background-color: #7fa552;
-  margin: auto;
-  width: 85%;
-  padding: 11px;
+  padding: 13px;
   color: rgb(255, 255, 255);
+  text-decoration: none;
   border: none;
   border-radius: 15px;
-  font-size: 17px;
+  font-size: 20px;
   cursor: pointer;
   margin-bottom: auto;
-  text-align: center;
-  margin-top: -297px;
+  margin-top: -170px;
   transition: transform 0.4s ease-in-out;
   border: 5xp solid black;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Desfoque na borda */
+  box-shadow: 0 4px 8px rgba(167, 153, 153, 0.3);
+  text-align: center;
 }
-.galeria-area button01:hover {
-  background-color: #a9c28c;
+.galeria-area a:hover {
+  background-color: #e9bc42;
   transform: scale(1.12);
 }
+
+/* ------------------------------------------------------- */
+
 /* Forms Style */
 
 .forms-area {
