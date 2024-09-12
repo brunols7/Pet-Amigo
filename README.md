@@ -25,3 +25,4 @@
 - HTML
 - CSS
 - Figma
+- Trello
